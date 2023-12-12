@@ -1,0 +1,116 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("C:/Users/Huawei/Desktop/L3DSI2/Projet d'integration PI/PI2/StudentEvents/src/app/Images/backgrpund-img3.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.logo {
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #dcd0eb;
+  margin: 0 20px;
+  margin-left: 40%;
+  font-size: 30px; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  transition: color 0.3s; 
+}
+   
+.nav-link:hover {
+  color: #f8f4ff; 
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #673ab7; 
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.btn:hover {
+  background-color: #8e5ea2; 
+}
+
+
+body {
+  background-color: #e6e6fa;
+}
+
+span
+{
+  font-size: 18px; 
+  font-weight: bold; 
+  text-transform: uppercase;
+}
+
+.search-box {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:#673ab7;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+.search-box:hover > .search-btn {
+  background: #673ab7;
+  color: white;
+}
+.search-btn {
+  color: #eeeeee;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.search-btn > i {
+  font-size: 20px;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #dcd0eb;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  font-weight: bold;
+  
+}
+
+.search-txt::placeholder {
+  color:#dcd0eb; /* Couleur que vous préférez */
+}
